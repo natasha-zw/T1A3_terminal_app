@@ -9,10 +9,10 @@ def get_name
     elsif user.name.empty?
         raise InvalidNameError
     else
-        return user.name
-    end
-     
+       return user.name
+    end  
 end
+
 
 #error handling
 begin
@@ -27,6 +27,4 @@ rescue InvalidNameError => e
     sleep(1.5)
     system('clear')
     retry
-rescue
-    puts 'Some other error occurred'
 end
