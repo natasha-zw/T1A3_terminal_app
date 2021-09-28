@@ -17,7 +17,7 @@ if help_selection == true
     link_help
 end
 
-# menu lists 1 and 2 link 
+# Menu lists 1 and 2 link
 if menu_list_1 == 1
     system("clear")
     menu_list_2a
@@ -25,3 +25,5 @@ else
     system("clear")
     menu_list_2b
 end
+
+# Quiz section
