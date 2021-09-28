@@ -10,10 +10,3 @@ def menu_list_1
    
 end
 
-if menu_list_1 == 1 
-    system("clear")
-    menu_list_2a
-else
-    system("clear")
-    menu_list_2b
-end
