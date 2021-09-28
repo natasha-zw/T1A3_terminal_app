@@ -12,19 +12,3 @@ def get_name
        return user.name
     end  
 end
-
-
-#error handling
-begin
-    get_name
-rescue ArgumentError
-    puts 'Integers are not allowed! Please put in a valid name.'
-    sleep(1.5)
-    system('clear')
-    retry
-rescue InvalidNameError => e
-    puts e.message
-    sleep(1.5)
-    system('clear')
-    retry
-end

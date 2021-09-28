@@ -2,7 +2,19 @@ require_relative './get_username'
 require_relative '../classes/user'
 
 def welcome_message
-    username = get_name
+    begin
+        username = get_name
+    rescue ArgumentError
+        puts 'Integers are not allowed! Please put in a valid name.'
+        sleep(1.5)
+        system('clear')
+        retry
+    rescue InvalidNameError => e
+        puts e.message
+        sleep(1.5)
+        system('clear')
+        retry
+    end    
     regions = ['Hokkaido 北海道', 'Kanto　関東', 'Kansai　関西', 'Kyushu　九州']
     system('clear')
     puts "Welcome #{username} to this interactive travel guide to Japan!"
@@ -13,4 +25,4 @@ def welcome_message
         puts item
         sleep(1)
     end
-end 
+end
