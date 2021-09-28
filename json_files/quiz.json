@@ -2,26 +2,29 @@
     {
         "index": 1,
         "question": "Which of the following is the correct way to say hello in Japanese?",
-        "option1": "Howdy",
-        "option2": "Scarn'n",
-        "option3": "Kon'nichi'wa",
-        "option4": "Hola"
+        "option1": "Howdy ハウディ",
+        "option2": "Scarn'n　スッカルン",
+        "option3": "Kon'nichi'wa　こんにちは",
+        "option4": "Hola　ホラー",
+        "answer": 3
     }, 
     {
         "index": 2,
         "question": "You're on a train, going on your merry way. You've suddenly realised it has suddenly turned around. What do you do?",
-        "option1": "Panic",
-        "option2": "Get off at the next stop regardless",
-        "option3": "Stay on the train, adventure time!",
-        "option4": "Contemplate the meaning of life"
+        "option1": "Panic　パニック",
+        "option2": "Get off at the next stop regardless　降りる",
+        "option3": "Stay on the train, adventure time!　そのまま",
+        "option4": "Contemplate the meaning of life　人生って何",
+        "answer": 2
     },
     {
         "index": 3,
         "question": "Which of the following is the correct way to say thank you in Japanese?",
-        "option1": "Cheers mate",
-        "option2": "Arigatou",
-        "option3": "Kon'nichi'wa",
-        "option4": "Thanks"
+        "option1": "Cheers mate　チアーズ",
+        "option2": "Arigatou　ありがとう",
+        "option3": "Kon'nichi'wa　こんにちは",
+        "option4": "Thanks　アザッス",
+        "answer": 2
     },
     {
         "index": 4,
@@ -29,30 +32,35 @@
         "option1": "Pick a dish at random. It'll probably be good",
         "option2": "Put on your best sad face and say 'Nihon go wakari masen'",
         "option3": "Leave the restaurant even though you just sat down",
-        "option4": "Say 'Kon nichi wa'"
+        "option4": "Say 'Kon nichi wa'",
+        "answer": 2
     },
     {
         "index": 5,
-        "question": "True or false. It's ok to eat or drink whilst walking in Japan?",
-        "option1": "True",
-        "option2": "False"
+        "question": "真否(shinpi)　True or false. It's ok to eat or drink whilst walking in Japan?",
+        "option1": "True ",
+        "option2": "False",
+        "answer": 1
     },
     {
         "index": 6,
-        "question": "True or false. It is ok to talk on the phone on public transport in Japan?",
+        "question": "真否(shinpi)　True or false. It is ok to talk on the phone on public transport in Japan?",
         "option1": "True",
-        "option2": "False"
+        "option2": "False",
+        "answer": 2
     },
     {
         "index": 7,
-        "question": "True or false. Each region in Japan has it's own specialty cuisine ?",
+        "question": "真否(shinpi)　True or false. Each region in Japan has it's own specialty cuisine ?",
         "option1": "True",
-        "option2": "False"
+        "option2": "False",
+        "answer": 1
     }, 
     {
         "index": 8,
         "question": "You're horribly lost. Should you ask the police for help or a pedestrian?",
-        "option1": "Police",
-        "option2": "Pedestrian"
+        "option1": "Police 警察(kei satsu)",
+        "option2": "Pedestrian",
+        "answer": 1
     }
 ]
