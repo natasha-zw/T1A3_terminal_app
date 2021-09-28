@@ -1,5 +1,6 @@
 [
     {
+        "index": 1,
         "question": "Which of the following is the correct way to say hello in Japanese?",
         "option1": "Howdy",
         "option2": "Scarn'n",
@@ -7,6 +8,7 @@
         "option4": "Hola"
     }, 
     {
+        "index": 2,
         "question": "You're on a train, going on your merry way. You've suddenly realised it has suddenly turned around. What do you do?",
         "option1": "Panic",
         "option2": "Get off at the next stop regardless",
@@ -14,6 +16,7 @@
         "option4": "Contemplate the meaning of life"
     },
     {
+        "index": 3,
         "question": "Which of the following is the correct way to say thank you in Japanese?",
         "option1": "Cheers mate",
         "option2": "Arigatou",
@@ -21,6 +24,7 @@
         "option4": "Thanks"
     },
     {
+        "index": 4,
         "question": "You go to a restaurant. They have no english menu. What do you do?",
         "option1": "Pick a dish at random. It'll probably be good",
         "option2": "Put on your best sad face and say 'Nihon go wakari masen'",
@@ -28,21 +32,25 @@
         "option4": "Say 'Kon nichi wa'"
     },
     {
+        "index": 5,
         "question": "True or false. It's ok to eat or drink whilst walking in Japan?",
         "option1": "True",
         "option2": "False"
     },
     {
+        "index": 6,
         "question": "True or false. It is ok to talk on the phone on public transport in Japan?",
         "option1": "True",
         "option2": "False"
     },
     {
+        "index": 7,
         "question": "True or false. Each region in Japan has it's own specialty cuisine ?",
         "option1": "True",
         "option2": "False"
     }, 
     {
+        "index": 8,
         "question": "You're horribly lost. Should you ask the police for help or a pedestrian?",
         "option1": "Police",
         "option2": "Pedestrian"
