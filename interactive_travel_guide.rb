@@ -33,5 +33,4 @@ end
 preamble
 
 # Quiz section incl result
-quiz_answer = quiz_result
-
+quiz_result

@@ -1,0 +1,31 @@
+[
+    {
+        "region":"北海道 Hokkaido!",
+        "description":"The northern most part of Japan. Hokkaido is home of fresh seafood, world class powder snow, spectacular wilderness and rich indigenous culture! Being located in the north, Hokkaido has influences from Mongolia, so much so they have a dish named afer Ghengis Khan!",
+    "food":["北海度牛乳 Hokkaido milk - Japan's best milk, ", "Ghengis Khan ジンギスカンaka Delicious Lamb BBQ", "石狩鍋 - Hokkaido style hotpot which is vegetarian friendly! ", "海の幸 umi no sachi (<< this literally means blessing of the sea, which I think says it all) Any and every type of seafood"],
+        "attraction":["雪祭り The Annual Snow Festival - think ice sulplture and make that image 10 times bigger", "スキー Skiing - there is an abundance of skii resorts and well worth checking out that snow pow!", "ファーム富田 Farm Tomita - Beautiul lavender fields that will wow nature lovers", "Shiroi koibito Park - A chocolate and cookie factory that is basically a protal to a fairytale." ]
+    },
+    {
+        "region":"関東 Kanto!",
+        "description":"Home to Japan's capital Tokyo. About 1/3 of Japan's populations lives in this region so you'll see that iconic mix of traditional and modern elements.",
+        "food":["もんじゃ焼き Monjya yaki - Tokyo style crispy savory pancake", "深川めし Fukagawa Meshi - A spring dish made of large clams and leeks cooked in a miso broth and served over rice, originating from the Edo period!", "草加せんべい Soka Senbei - Popular traditional crunchy rice crackers", "湯葉 Yuba - A beancurd dish with the texture of mozzarella and a light soybean flavour"],
+        "attraction":["浅草寺 Sensou ji - Tokyo's oldest temple and dedicated to the goddess of mercy, 観音様 Kannon", "皇居 The Imperial Palace - The main resicence of the Emperor of Japan with beautiful gardens", "ジブリ美術館 Ghibli Museum - A magical showcase of the work from Studio Ghibli", "日光ユネスコ世界文化遺産 Nikko UNESCO World Heritage Site - Beautiful shrines located in a quintessentially Japanese landscape, includes the final resting place of Shogun Togogawa Ieyasu" ]
+
+    },
+    {
+        "region":"関西 Kansai!",
+        "description":"Japan's spiritual and cultural capital, known for it's preservation of tradition and home to many of Japan's historical sites. Both of Japan's ancient capitals Nara and Kyoto are located here!",
+        "food":["狐うどん Kitsune Udon - One of the most popular styles of Udon in Japan. Topped with delicious toppings including fried tofu skin which legend says is a foxes' (kitsune) favourite food ", "お好み焼き Okonomiyaki - Osaka style fluffy savory pancake, some restaurants let you can cook it yourself at the table!", "宇治抹茶 Uji Matcha - The green tea to end all green tea, fantastic in desserts", "てっちり Tecchiri - Pufferfish hotpot, for those that want to be a bit daring"],
+        "attraction":""
+        
+
+    },
+    {
+        "region":"九州 Kyushu!",
+        "description":" The most southern of the 4 main islands of Japan with more tropical weather and peaceful beaches. Kyushu boasts dramatic hotsprings, food stalls (屋台 yatai) and an outgoing culture",
+        "food":["博多ラーメン Hakata Ramen - Originating from Kyushu, this rich pork bone broth ramen is one of the most popular in Japan", "チキン南蛮 Chicken Nanban - The holy grail of fried chicken, coated with a sweet and tangy tartar sauce", "もつ鍋 Motsunabe - Hot pot originating in the Hakata region made with beef or pork tripe, low in calories but big in flavour", "いきなり団子 Ikinari dango - A steamed bun filled with red bean paste and sweet potato filling, the most perfect sweet treat!"],
+        "attraction":["別府 Beppu - Japan's capital city of hot springs(温泉 Onsen) and home to the 5 'hells'", "湯徳稲荷神社 Yutoku Inari Shrine - Founded in 1687 this is one of Japan's top three shrines dedicated Inari, the deity associated with foxes, rice and prosperity", "吉野ヶ里歴史公園 Yoshinogari Historical Park - An archaeological site covering a settlement from 300BC to 300AD (弥生時代 Yayoi Period), a great look into Japan's ancient past", "高千穂峡 Takachiho Gorge - Beautiful V-shaped gorge with red-tinted cliffs rising up from each dide. Best enjoyed by row boat " ]
+        
+
+    }
+]
