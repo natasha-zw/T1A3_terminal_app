@@ -4,7 +4,7 @@ def preamble
     sleep(0.5)
     puts 'Stop!'
     sleep(0.5)
-    File.foreach ('./text_files/stop_ascii.txt') do |line|
+    File.foreach('./text_files/stop_ascii.txt') do |line|
         puts line
     end
     sleep(0.5)

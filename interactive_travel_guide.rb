@@ -28,7 +28,7 @@ else
     menu_list_2b
 end
 
-# Preamble to Quiz 
+# Preamble to Quiz
 preamble
 
 # Quiz section

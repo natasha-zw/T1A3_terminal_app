@@ -58,9 +58,9 @@
     }, 
     {
         "index": 8,
-        "question": "You're horribly lost. Should you ask the police for help or a pedestrian?",
+        "question": "You are so horribly lost not even google maps can save you. Should you ask the police for help or the closest person to you?",
         "option1": "Police 警察(kei satsu)",
-        "option2": "Pedestrian",
+        "option2": "The nearest person 周りの人",
         "answer": 1
     }
 ]

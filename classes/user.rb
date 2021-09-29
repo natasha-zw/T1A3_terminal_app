@@ -1,10 +1,21 @@
-require_relative '../classes/invalid_name_error'
+
 class User
     attr_accessor :name
+    @@users_array = []
+    
+    def self.users
+        @@users_array
+    end
+    
     def initialize(name)
         @name = name
+        @@users_array << self
     end
-    def username
-        @name
-    end
+   
+
 end
+
+# amy = User.new('amy')
+
+# p amy.name
+# p User.users_array
