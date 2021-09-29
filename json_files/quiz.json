@@ -6,7 +6,8 @@
         "option2": "Scarn'n　スッカルン",
         "option3": "Kon'nichi'wa　こんにちは",
         "option4": "Hola　ホラー",
-        "answer": 3
+        "answer": 3, 
+        "explanation": "Kon'nichi'wa is hello in Japanese! However this is usually said in the afternoons! The Chinese characters (漢字 Kanji), for kon'nichi'wa (今日は) mean 'how was today' which is why it is usually used in the afternoons. Oha'iyou gozaimasu おはようございます is good morning and konban wa こんばんは is good evening!"
     }, 
     {
         "index": 2,
@@ -15,7 +16,8 @@
         "option2": "Get off at the next stop regardless　降りる",
         "option3": "Stay on the train, adventure time!　そのまま",
         "option4": "Contemplate the meaning of life　人生って何",
-        "answer": 2
+        "answer": 2,
+        "explanation": "Trains changing course at certain stops can happen but the announcements are usually only in Japanese (sometimes they are written on the screens that show the train's next stop so it pays to check there first!). If this happens get off immediately because you may end up (worst case senario) in a whole different prefecture. It's best to ask the train concuctors as long as you know the name of where you want to go (always have it written down just incase), they'll help you get there! A great phrase for this situation is [name of place] ikitai desu. 渋谷へ行きたいです！"
     },
     {
         "index": 3,
@@ -24,43 +26,49 @@
         "option2": "Arigatou　ありがとう",
         "option3": "Kon'nichi'wa　こんにちは",
         "option4": "Thanks　アザッス",
-        "answer": 2
+        "answer": 2, 
+        "explanation": "Arigatou ありがとう is a casual way of saying thank you in Japanese. The more polite form is arigatou gozaimasu ありがとうございます. The super casual way is azasu アザッス which you may hear a lot especially in ramen restaurants!"
     },
     {
         "index": 4,
         "question": "You go to a restaurant. They have no english menu. What do you do?",
         "option1": "Pick a dish at random. It'll probably be good",
-        "option2": "Put on your best sad face and say 'Nihon go wakari masen'",
+        "option2": "Put on your best sad face and say 'Nihon go ga wakari masen'",
         "option3": "Leave the restaurant even though you just sat down",
         "option4": "Say 'Kon nichi wa'",
-        "answer": 2
+        "answer": 2,
+        "explanation": "If you're ever in a situation where you have no idea what is going on and there is no english available anywhere use 'Nihon go ga wakari masen' 日本語がわかりません. This literally means I don't understand Japanese and will be very useful! If you speak Japanese but find it difficult to read you can also use 'nihongo ga yomemasen' 日本語が読めません！"
     },
     {
         "index": 5,
         "question": "真否(shinpi)　True or false. It's ok to eat or drink whilst walking in Japan?",
         "option1": "True ",
         "option2": "False",
-        "answer": 1
+        "answer": 1,
+        "explanation": "Eating and drinking in Japan whilst walking is not illegal but heavily frowned upon. Unless you're an office worker and you're running for the train whilst eating a rice ball. Tourist towns or areas that specialise in food usually have a thing called 食べ歩き (tabe aruki) which literally means 'eat and walk'. But if walking and eating isn't allowed how do they do this? Well each restaurant/shop/stall, has a small area where you eat what you've bought before moving on. The portons are usually small portions or are just snacks that are special to the area, not full meals! Convenience stores also usually have small areas for patrons to eat their food before they leave!"
     },
     {
         "index": 6,
         "question": "真否(shinpi)　True or false. It is ok to talk on the phone on public transport in Japan?",
         "option1": "True",
         "option2": "False",
-        "answer": 2
+        "answer": 2, 
+        "explanation": "Talking on the phone is most definitely not allowed on public transport and you will most likely be told to stop. Japanese culture puts emphasis on being considerate to others and unnecessary noise is frowned upon, people are even asked to turn their phones on vibrate when on public transport! You can talk to those around you but not too loudly."
     },
     {
         "index": 7,
         "question": "真否(shinpi)　True or false. Each region in Japan has it's own specialty cuisine ?",
         "option1": "True",
         "option2": "False",
-        "answer": 1
+        "answer": 1,
+        "explanation": "There is so much delicious food in Japan to try it's almost incomprehensible. No matter where you go there will be something new to try so always research before you head out! お土産 omiyage is a gift you buy from places you visit to give to other people. These are usually specialty sweets or keychains (most regions have their own mascot too!) and since this a big part of Japanese culture you will find omiyage anywhere in Japan. People even buy some to give to their co-workers!"
     }, 
     {
         "index": 8,
         "question": "You are so horribly lost not even google maps can save you. Should you ask the police for help or the closest person to you?",
         "option1": "Police 警察(kei satsu)",
         "option2": "The nearest person 周りの人",
-        "answer": 1
+        "answer": 1,
+        "explanation": "If you are lost you should always look for a building with the sign 交番 (kouban) which will be the neighbourhood police office. They are usually small and deal with this all the time. They are also more likely to speak English! Police officers usually wear a navy blue uniform that says 'police' in English!"
     }
 ]

@@ -55,5 +55,5 @@ rescue
     puts 'Some other error occurred'
 end
 
-# Quiz result 
+# Quiz result
 
