@@ -43,7 +43,6 @@ def quiz_result
             puts i[:explanation]
         end
     end
-    return answer
 end
 
 
