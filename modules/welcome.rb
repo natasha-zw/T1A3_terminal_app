@@ -1,4 +1,4 @@
-require_relative './get_username'
+require_relative './get_name'
 require_relative '../classes/user'
 require 'csv'
 

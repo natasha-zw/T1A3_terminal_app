@@ -16,4 +16,6 @@ def get_quiz
             puts "2. #{questions[:option2]}"
         end
     end
+    return num
 end
+

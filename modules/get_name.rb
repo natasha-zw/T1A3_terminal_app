@@ -15,7 +15,6 @@ def get_name
         CSV.open('./csv_files/users.csv', 'a') do |csv|
             csv << username
         end
-        
     end
 end
 
