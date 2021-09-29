@@ -4,8 +4,7 @@ require_relative './modules/link_help'
 require_relative './modules/menu_list_1'
 require_relative './modules/prequiz'
 require_relative './modules/get_quiz'
-require_relative './classes/invalid_number_error'
-require_relative './classes/invalid_boolean_error'
+require_relative './modules/quiz_result'
 
 # Welcome message and get user name
 welcome_message
@@ -33,27 +32,6 @@ end
 # Preamble to Quiz
 preamble
 
-# Quiz section
-# User answer to question + error handling
-num = get_quiz
-puts 'Please input your answer, using the numbers:'
-begin
-    answer = gets.chomp.to_i
-    if (1..4).include?(num) && (answer > 4 || answer < 1)
-        raise InvalidNumberError
-    elsif (5..8).include?(num) && (answer > 2 || answer < 1)
-        raise InvalidBooleanError
-    end
-    puts "Your answer was #{Integer(answer) + 0}!"
-rescue InvalidNumberError => e
-    puts e.message
-    retry
-rescue InvalidBooleanError => e
-    puts e.message
-    retry
-rescue
-    puts 'Some other error occurred'
-end
-
-# Quiz result
+# Quiz section incl result
+quiz_answer = quiz_result
 
