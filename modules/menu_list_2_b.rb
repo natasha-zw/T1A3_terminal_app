@@ -10,5 +10,3 @@ def menu_list_2b
     prompt = TTY::Prompt.new
     prompt.select("Pick an activity you'd like to try!", menu, symbols: { marker: '❀' })
 end
-
-p menu_list_2b

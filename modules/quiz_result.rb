@@ -45,4 +45,3 @@ def quiz_result
     end
 end
 
-

@@ -11,4 +11,3 @@ def menu_list_2a
     prompt.select("Pick a meal you'd like to try!", menu, symbols: { marker: '🢂' })
 end
 
-
