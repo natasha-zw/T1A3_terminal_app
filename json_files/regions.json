@@ -19,7 +19,7 @@
         "region":"関西 Kansai!",
         "description":"Japan's spiritual and cultural capital, known for it's preservation of tradition and home to many of Japan's historical sites. Both of Japan's ancient capitals Nara and Kyoto are located here!",
         "food":["狐うどん Kitsune Udon - One of the most popular styles of Udon in Japan. Topped with delicious toppings including fried tofu skin which legend says is a foxes' (kitsune) favourite food ", "お好み焼き Okonomiyaki - Osaka style fluffy savory pancake, some restaurants let you can cook it yourself at the table!", "宇治抹茶 Uji Matcha - The green tea to end all green tea, fantastic in desserts", "てっちり Tecchiri - Pufferfish hotpot, for those that want to be a bit daring"],
-        "attraction":""
+        "attraction":["姫路城 Himeji-jo - Hailed Japan's most beautiful feudal castle. Prestine white walls contrast beautifully with the sky.", "清水寺 Kiyo Mizu Dera - Literally the Pure Water Temple, derives it's name from Otowa Waterfall and is one of the most celebrated temples in Kyoto", "祇園祭 Gion Matsuri - The most famous festival in Japan and takes place over the entire month of July! This historic festival dates back from 869.", "難波 Nanba - Home of the glittering lights, shopping malls, and dining that make up quintessential image of modern Japan. Get in amoungst the the bright city lights!"]
         
 
     },
@@ -28,7 +28,7 @@
         "region":"九州 Kyushu!",
         "description":" The most southern of the 4 main islands of Japan with more tropical weather and peaceful beaches. Kyushu boasts dramatic hotsprings, food stalls (屋台 yatai) and an outgoing culture",
         "food":["博多ラーメン Hakata Ramen - Originating from Kyushu, this rich pork bone broth ramen is one of the most popular in Japan", "チキン南蛮 Chicken Nanban - The holy grail of fried chicken, coated with a sweet and tangy tartar sauce", "もつ鍋 Motsunabe - Hot pot originating in the Hakata region made with beef or pork tripe, low in calories but big in flavour", "いきなり団子 Ikinari dango - A steamed bun filled with red bean paste and sweet potato filling, the most perfect sweet treat!"],
-        "attraction":["別府 Beppu - Japan's capital city of hot springs(温泉 Onsen) and home to the 5 'hells'", "湯徳稲荷神社 Yutoku Inari Shrine - Founded in 1687 this is one of Japan's top three shrines dedicated Inari, the deity associated with foxes, rice and prosperity", "吉野ヶ里歴史公園 Yoshinogari Historical Park - An archaeological site covering a settlement from 300BC to 300AD (弥生時代 Yayoi Period), a great look into Japan's ancient past", "高千穂峡 Takachiho Gorge - Beautiful V-shaped gorge with red-tinted cliffs rising up from each dide. Best enjoyed by row boat " ]
+        "attraction":["別府 Beppu - Japan's capital city of hot springs(温泉 Onsen) and home to the 5 'hells'", "湯徳稲荷神社 Yutoku Inari Shrine - Founded in 1687 this is one of Japan's top three shrines dedicated Inari, the deity associated with foxes, rice and prosperity", "吉野ヶ里歴史公園 Yoshinogari Historical Park - An archaeological site covering a settlement from 300BC to 300AD (弥生時代 Yayoi Period), a great look into Japan's ancient past", "高千穂峡 Takachiho Gorge - Beautiful V-shaped gorge with red-tinted cliffs rising up from each dide. Best enjoyed by row boat"]
         
 
     }

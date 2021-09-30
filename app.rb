@@ -5,7 +5,6 @@ require_relative './modules/link_help'
 require_relative './modules/exit_prompt'
 require_relative './modules/menu_list_1'
 require_relative './modules/prequiz'
-require_relative './modules/get_quiz'
 require_relative './modules/drumroll'
 require_relative './modules/quiz_result'
 
@@ -77,9 +76,9 @@ begin
     i = 1
     region_file.each do |region|
         if region[:index] == selection2
-            puts "🌸🌸🌸🌸🌸🌸🌸🌸"
-            puts region[:region]
-            puts "🌸🌸🌸🌸🌸🌸🌸🌸"
+            puts "🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸"
+            puts " Your destination is #{region[:region]}"
+            puts "🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸"
             puts ' '
             puts region[:description]
             puts ' '
@@ -97,8 +96,9 @@ begin
             end
         end
     end
+# Error handling for early exiting the program and not found
 rescue Interrupt
     puts 'You ended the program!'
 rescue Errno::ENOENT
-    puts 'File Read Error'
+    puts 'Internal File Not Found'
 end
