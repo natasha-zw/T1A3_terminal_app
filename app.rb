@@ -10,13 +10,20 @@ require_relative './modules/quiz_result'
 
 # CLI arguments
 arguments = ARGV
-if (arguments & ['--h', '--help']).any?
+
+case
+when (arguments & ['--h', '--help']).any?
     File.foreach('./text_files/help.txt') do |line|
-        # sleep(2)
+        puts line
+    end
+    exit
+when (arguments & ['--a', '--about']).any?
+    File.foreach('./text_files/purpose.txt') do |line|
         puts line
     end
     exit
 end
+
 
 # Welcome message and get user name
 welcome_message
@@ -25,7 +32,7 @@ welcome_message
 if help_selection == true
     system('clear')
     File.foreach('./text_files/help.txt') do |line|
-        # sleep(2)
+        sleep(2)
         puts line
     end
     if link_help == false
@@ -52,16 +59,16 @@ preamble
 
 # Quiz section incl result
 quiz_result
- # sleep(2)
+sleep(2)
 
 # User menu selection result
 region_file = JSON.load_file('./json_files/regions.json', symbolize_names: true)
 i = 1
 region_file.each do |region|
     if region[:index] == selection2
-        puts "======================"
+        puts "🌸🌸🌸🌸🌸🌸🌸🌸🌸"
         puts region[:region]
-        puts "======================"
+        puts "🌸🌸🌸🌸🌸🌸🌸🌸🌸"
         puts region[:description]
         puts ' '
         case selection1

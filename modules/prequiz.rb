@@ -1,9 +1,13 @@
 require 'csv'
+require 'pastel'
+require 'tty-font'
 def preamble
+    pastel = Pastel.new
+    font = TTY::Font.new(:standard)
     system('clear')
-    puts User.users[0]
+    puts pastel.magenta(font.write("#{User.users[0]}", letter_spacing: 4))
     sleep(0.5)
-    puts '止まれ(tomare!)'
+    puts '止まれ!'
     sleep(0.5)
     puts 'Stop!'
     sleep(0.5)
