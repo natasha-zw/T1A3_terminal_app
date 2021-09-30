@@ -1,8 +1,7 @@
 require 'csv'
 def preamble
     system('clear')
-    username = CSV.read('./csv_files/users.csv', headers: true)
-    puts username[-1]['name']
+    puts User.users[0]
     sleep(0.5)
     puts '止まれ(tomare!)'
     sleep(0.5)

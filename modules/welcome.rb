@@ -16,10 +16,9 @@ def welcome_message
         system('clear')
         retry
     end
-    username = CSV.read('./csv_files/users.csv', headers: true)
     regions = ['Hokkaido 北海道', 'Kanto　関東', 'Kansai　関西', 'Kyushu　九州']
     system('clear')
-    puts "Welcome #{username[-1]}"
+    puts "Welcome #{User.users[0]}! ٩(◕‿◕)۶"
     puts 'This is your interactive travel guide to Japan!'
     sleep(1.5)
     puts 'Together we will be finding out more about four regions in Japan.'

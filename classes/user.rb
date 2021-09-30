@@ -1,4 +1,3 @@
-
 class User
     attr_accessor :name
     @@users_array = []
@@ -9,13 +8,8 @@ class User
     
     def initialize(name)
         @name = name
-        @@users_array << self
+        @@users_array << self.name 
     end
    
 
 end
-
-# amy = User.new('amy')
-
-# p amy.name
-# p User.users_array

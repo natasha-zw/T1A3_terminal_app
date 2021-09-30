@@ -2,13 +2,21 @@ require 'json'
 require_relative './modules/welcome'
 require_relative './modules/help_selection'
 require_relative './modules/link_help'
+require_relative './modules/exit_prompt'
 require_relative './modules/menu_list_1'
 require_relative './modules/prequiz'
 require_relative './modules/get_quiz'
 require_relative './modules/quiz_result'
 
-# About the app
-
+# CLI arguments
+arguments = ARGV
+if (arguments & ['--h', '--help']).any?
+    File.foreach('./text_files/help.txt') do |line|
+        # sleep(2)
+        puts line
+    end
+    exit
+end
 
 # Welcome message and get user name
 welcome_message
@@ -20,7 +28,11 @@ if help_selection == true
         # sleep(2)
         puts line
     end
-    link_help
+    if link_help == false
+        if exit_prompt == true
+            exit
+        end
+    end
 end
 
 # Menu lists 1 and 2 link
@@ -66,4 +78,3 @@ region_file.each do |region|
         end
     end
 end
-
