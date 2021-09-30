@@ -7,6 +7,9 @@ require_relative './modules/prequiz'
 require_relative './modules/get_quiz'
 require_relative './modules/quiz_result'
 
+# About the app
+
+
 # Welcome message and get user name
 welcome_message
 
