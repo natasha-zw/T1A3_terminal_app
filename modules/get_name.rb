@@ -13,7 +13,7 @@ def get_name
     puts pastel.red(font.write("            JAPAN"))
     sleep(2)
     puts '🌸 Konnichiwa!🌸 Please input your name and press Enter:'
-    user = User.new(STDIN.gets.chomp)
+    user = User.new(STDIN.gets.capitalize.chomp)
     if !user.name.match(/\A[a-zA-Z'-]*\z/)
         raise ArgumentError
     elsif user.name.empty?

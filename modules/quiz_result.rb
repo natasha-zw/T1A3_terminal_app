@@ -31,14 +31,18 @@ def quiz_result
             File.foreach('./text_files/congratulations_ascii.txt') do |line|
                 puts line
             end
+            sleep(3)
             puts 'Well done! That is the right answer and here is the reasoning:'
+            sleep(1)
             puts i[:explanation]
         elsif num == i[:index] && answer != i[:answer]
             File.foreach('./text_files/incorrect_ascii.txt') do |line|
                 puts line
             end
+            sleep(3)
             puts 'Oh no! That was the incorrect answer!'
             puts ' '
+            sleep(1)
             puts 'Here is an explanation of the right answer:'
             puts i[:explanation]
         end
