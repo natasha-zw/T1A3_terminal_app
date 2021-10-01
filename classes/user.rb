@@ -8,7 +8,7 @@ class User
     
     def initialize(name)
         @name = name
-        @@users_array << self.name 
+        @@users_array << self.name
     end
    
 

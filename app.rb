@@ -5,9 +5,9 @@ require_relative './modules/link_help'
 require_relative './modules/exit_prompt'
 require_relative './modules/menu_list_1'
 require_relative './modules/prequiz'
-require_relative './modules/drumroll'
+require_relative './modules/continue'
 require_relative './modules/quiz_result'
-
+require_relative './modules/facts'
 
 begin
     # CLI arguments
@@ -65,9 +65,16 @@ begin
     # Quiz section incl result
     quiz_result
     sleep(2)
+    
+    # Prompts the user if they are ready to continue
+    continue
 
-    # Pause before selection result
-    drumroll
+    # Fun facts
+    system('clear')
+    fun_facts
+
+    # prompts the user if they are ready to continue
+    continue
 
     # User menu selection result
     system('clear')
