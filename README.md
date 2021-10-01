@@ -51,5 +51,7 @@ The quizzes also feature handy Japanese phrases to use on your travels.
 
 ### References
 Edmondson, Olivia. J. H., and Andrew K. MacLeod. “Psychological Well-Being and Anticipated Positive Personal Events: Their Relationship to Depression.” Clinical Psychology & Psychotherapy, vol. 22, no. 5, 7 July 2013, pp. 418–425, 10.1002/cpp.1911. Accessed 9 Nov. 2018.
+
 Luo, Y., Chen, X., Qi, S., You, X. and Huang, X. (2018). Well-being and Anticipation for Future Positive Events: Evidences from an fMRI Study. [online] Frontiers in Psychology. Available at: https://www.frontiersin.org/articles/10.3389/fpsyg.2017.02199/full. [Accessed 23 Sep. 2021].
+
 Pfefferbaum, B. and North, C.S. (2020). Mental Health and the Covid-19 Pandemic. New England Journal of Medicine, [online] 383(6). Available at: https://www.nejm.org/doi/full/10.1056/NEJMp2008017. [Accessed 23 Sep. 2021].
