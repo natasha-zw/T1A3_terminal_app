@@ -4,7 +4,6 @@ require_relative '../classes/user'
 require_relative '../classes/invalid_name_error'
 
 
-
 def get_name
     pastel = Pastel.new
     font = TTY::Font.new(:starwars)

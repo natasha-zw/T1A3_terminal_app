@@ -47,5 +47,6 @@ def quiz_result
             puts i[:explanation]
         end
     end
+    
 end
 

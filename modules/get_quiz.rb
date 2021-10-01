@@ -1,5 +1,6 @@
 require 'json'
 
+
 def get_quiz
     parsed = JSON.load_file('./json_files/quiz.json', symbolize_names: true)
     num = rand(1..8)
