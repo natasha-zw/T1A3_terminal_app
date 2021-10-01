@@ -37,7 +37,6 @@ To run the app you'll need to run the bash script:
 run_app.sh 
 This will download the necessary dependencies and run the application. 
 
-##### Features
 The application will ask you to type directly into the terminal. 
 When this happens please enter the information and press enter to continue. 
 There will also be sections where you will be asked to select an option.
