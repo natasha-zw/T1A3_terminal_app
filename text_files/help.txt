@@ -1,21 +1,19 @@
 Hello there traveler!
 This is your guide to using this APP.
 
-Dependencies: 
-Before you begin you'll need to make sure you have installed the ruby gems in the gem bundler file.
-To do this you will need run the following code in your terminal:
-bundle install
-Once this is installed you can run the program. 
-
-The APP:
-This application is an interactive travel guide to Japan. 
+This application is an interactive travel guide to Japan 🗾🗻. 
 By navigating through the app you will be given a reccommendation on food to try and places to visit. 
 The application will ask you to type directly into the terminal. 
 When this happens please enter the information and press enter to continue. 
 There will also be sections where you will be asked to select an option.
-Use the arrow keys to navigate throught the options and press enter to confirm your selection. 
+Use the arrow keys ↑↓ to navigate throught the options and press enter to confirm your selection. 
 
-The application also features quizzes which will test you on situations you may find yourself in as you travel.
+The application will ask you what interests you when you travel (food or attractions). 
+Then it will ask you to choose from a list of Attractions or Japanese dishes. 
+Once you finish your selection the application will launch a quiz which will test you on situations you may find yourself in as you travel.
 The quizzes also feature handy Japanese phrases to use on your travels. 
 
-So are you ready! Ikimashou! 
+Once you have completed this, the application will generate a travel destination reccommendation and explain what you can do there. 
+
+So are you ready! 
+Let's go! Ikimashou! 
