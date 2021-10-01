@@ -1,8 +1,8 @@
 require 'rspec/autorun'
 require_relative '../classes/user.rb'
 
-describe User do 
-   it 'creates a new user ' do 
+describe User do
+   it 'creates a new user ' do
     user1 = User.new('Mel')
     user2 = User.new('James')
 

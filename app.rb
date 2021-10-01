@@ -69,7 +69,7 @@ begin
     fun_facts
     sleep(2)
 
-    # prompts the user if they are ready to continue
+    # Prompts the user if they are ready to continue
     Prompts.continue
 
     # User menu selection result
