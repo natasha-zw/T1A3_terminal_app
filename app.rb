@@ -1,12 +1,8 @@
 require 'json'
 require_relative './modules/welcome'
-require_relative './modules/help_selection'
-require_relative './modules/link_help'
-require_relative './modules/exit_prompt'
-require_relative './modules/menu_list_1'
-require_relative './modules/prequiz'
-require_relative './modules/continue'
-require_relative './modules/quiz_result'
+require_relative './modules/menu'
+require_relative './modules/prompts'
+require_relative './modules/quiz'
 require_relative './modules/facts'
 
 begin
@@ -32,16 +28,17 @@ begin
         exit
     end
     # Welcome message and get user name
-    welcome_message
+    Welcome.error_handling
+    Welcome.message
 
     # User given the choice to read the help doc
-    if help_selection == true
+    if Prompts.help == true
         system('clear')
         File.foreach('./text_files/help.txt') do |line|
             puts line
         end
-        if link_help == false
-            if exit_prompt == true
+        if Prompts.move_on == false
+            if Prompts.exit == true
                 exit
             end
         end
@@ -49,32 +46,31 @@ begin
 
     # Menu lists 1 and 2 link
     system('clear')
-    if menu_list_1 == 1
+    if Menu.list1 == 1
         system('clear')
         selection1 = 1
-        selection2 = menu_list_2a
+        selection2 = Menu.list2a
     else
         system('clear')
         selection1 = 2
-        selection2 = menu_list_2b
+        selection2 = Menu.list2b
     end
-
-    # Preamble to Quiz
-    preamble
-
-    # Quiz section incl result
-    quiz_result
+    
+    # Quiz section
+    Quiz.preamble
+    Quiz.result
     sleep(2)
     
     # Prompts the user if they are ready to continue
-    continue
+    Prompts.continue
 
     # Fun facts
     system('clear')
     fun_facts
+    sleep(2)
 
     # prompts the user if they are ready to continue
-    continue
+    Prompts.continue
 
     # User menu selection result
     system('clear')
