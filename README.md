@@ -14,9 +14,6 @@ Error messages will be customised and displayed to the user in an understandable
 * The majority of user interaction will be through the user selecting from a group of options. This is to reduce the amount of errors in the application as much as possible to provide a positive user experience.
 * Command line arguments will be available for the user to get more information about the app, including the gems used for the application, access to the help secions without running the app and the intended purpose/scope of the app. 
 
-### Control Flow Diagram
-The control flow diagram was creating using the UML standard
-![Control Flow Chart ](https://user-images.githubusercontent.com/82021839/135610058-5e2fe979-4a1a-4b2a-af17-eac08064c63c.png)
 
 ### Project Management 
 Project management was done using trello. Each feature is represented by a card and the steps to make the feature functional added as a check list. Lables are used to indicate how much time a particular feature will take to complete. 
@@ -29,6 +26,7 @@ This app is dependent on the following gems:
 * TTY Prompt 
 * Pastel
 * TTY Font
+
 It also uses the rspec gem for testing. 
 
 #### How to use the app:
@@ -39,7 +37,7 @@ To run the app you'll need to run the bash script:
 run_app.sh 
 This will download the necessary dependencies and run the application. 
 
-#### Features
+##### Features
 The application will ask you to type directly into the terminal. 
 When this happens please enter the information and press enter to continue. 
 There will also be sections where you will be asked to select an option.
