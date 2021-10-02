@@ -33,11 +33,16 @@ The quizzes also feature handy Japanese phrases to use on your travels.
 
 #### Command Line Arguments:
 Command line arguments are a available for this application. 
---a or --about : Prints information about the app, it's scope and purpose 
---g or --gems : Prints the gems used in the application
---h or --help : Prints help documentation 
+
+* --a or --about : Prints information about the app, it's scope and purpose 
+
+* --g or --gems : Prints the gems used in the application
+
+* --h or --help : Prints help documentation
+
 These can be used by running the app directly in the terminal (not the bash script):
-ruby app.rb [argument]
+
+`ruby app.rb [argument]`
 
 ### References
 Edmondson, Olivia. J. H., and Andrew K. MacLeod. “Psychological Well-Being and Anticipated Positive Personal Events: Their Relationship to Depression.” Clinical Psychology & Psychotherapy, vol. 22, no. 5, 7 July 2013, pp. 418–425, 10.1002/cpp.1911. Accessed 9 Nov. 2018.
