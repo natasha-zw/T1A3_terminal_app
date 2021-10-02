@@ -3,8 +3,11 @@ This is your guide to using this APP.
 
 This application is an interactive travel guide to Japan 🗾🗻. 
 By navigating through the app you will be given a reccommendation on food to try and places to visit. 
+
 The application will ask you to type directly into the terminal. 
 When this happens please enter the information and press enter to continue. 
+If the application cannot accept your input, it will let you know the valid inputs it can accept. 
+
 There will also be sections where you will be asked to select an option.
 Use the arrow keys ↑↓ to navigate throught the options and press enter to confirm your selection. 
 
@@ -16,5 +19,5 @@ The application will also generate a fun fact that you may not have known about 
 
 Once you have completed this, the application will generate a travel destination reccommendation with an explanation about the region and what you can do/eat there.
 
-So are you ready! 
+So are you ready?
 Let's go! Ikimashou! 
