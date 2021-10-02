@@ -19,5 +19,7 @@ The application will also generate a fun fact that you may not have known about 
 
 Once you have completed this, the application will generate a travel destination reccommendation with an explanation about the region and what you can do/eat there.
 
+You can also exit the application at any point by using ctrl C! This will end the program. 
+
 So are you ready?
 Let's go! Ikimashou! 

@@ -19,8 +19,8 @@ It also uses the rspec gem for testing.
 This application is an interactive travel guide to Japan. 
 By navigating through the app you will be given a reccommendation on food to try and places to visit. 
 
-To run the app you'll need to run the bash script: 
-run_app.sh 
+To run the app you'll need to be in the src directory run the bash script: 
+`./run_app.sh` 
 This will download the necessary dependencies and run the application. 
 
 The application will ask you to type directly into the terminal. 
