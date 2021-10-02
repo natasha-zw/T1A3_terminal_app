@@ -46,7 +46,8 @@ module Quiz
     
     def self.result
         num = Quiz.get
-        puts 'Please input your answer, using the numbers:'
+        pastel = Pastel.new
+        puts pastel.magenta('Please input your answer, using the corresponding numbers:')
         begin
             answer = gets.chomp.to_i
             if (1..4).include?(num) && (answer > 4 || answer < 1)
@@ -73,7 +74,7 @@ module Quiz
                     puts line
                 end
                 sleep(3)
-                puts 'Well done! That is the right answer and here is the reasoning:'
+                puts pastel.green('Well done! That is the right answer and here is the reasoning:')
                 sleep(1)
                 puts i[:explanation]
             elsif num == i[:index] && answer != i[:answer]
@@ -81,10 +82,10 @@ module Quiz
                     puts line
                 end
                 sleep(3)
-                puts 'Oh no! That was the incorrect answer!'
+                puts pastel.red('Oh no! That was the incorrect answer!')
                 puts ' '
                 sleep(1)
-                puts 'Here is an explanation of the right answer:'
+                puts pastel.magenta('Here is an explanation of the right answer:')
                 puts i[:explanation]
             end
         end

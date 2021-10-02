@@ -10,7 +10,7 @@ module Intro
         font = TTY::Font.new(:starwars)
         puts pastel.red(font.write("WELCOME"))
         sleep(2)
-        puts pastel.red(font.write("                            TO"))
+        puts pastel.white(font.write("                            TO"))
         sleep(2)
         puts pastel.red(font.write("            JAPAN"))
         sleep(2)

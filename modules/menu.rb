@@ -3,8 +3,8 @@ require 'pastel'
 module Menu
     def self.list1
         choices = { Food: 1, Attractions: 2 }
-        prompt = TTY::Prompt.new(active_color: :cyan, symbols:{ marker: '🗾 '})
-        prompt.select('What is more important to you when travelling? (Use ↑/↓ and ←/→ arrow keys, press Enter to select)', choices)
+        prompt = TTY::Prompt.new(active_color: :green, symbols:{ marker: '🗾 '})
+        prompt.select('What is more important to you when travelling?', choices)
     
     end
     def self.list2a

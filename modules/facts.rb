@@ -9,7 +9,7 @@ def fun_facts
     font = TTY::Font.new(:standard)
     facts.each do |i|
         if num == i[:index]
-            puts pastel.magenta(font.write('FUN FACT'))
+            puts pastel.yellow(font.write('FUN FACT'))
             puts i[:fact]
         end
     end
