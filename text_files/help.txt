@@ -12,8 +12,9 @@ The application will ask you what interests you when you travel (food or attract
 Then it will ask you to choose from a list of Attractions or Japanese dishes. 
 Once you finish your selection the application will launch a quiz which will test you on situations you may find yourself in as you travel.
 The quizzes also feature handy Japanese phrases to use on your travels. 
+The application will also generate a fun fact that you may not have known about Japan.
 
-Once you have completed this, the application will generate a travel destination reccommendation and explain what you can do there. 
+Once you have completed this, the application will generate a travel destination reccommendation with an explanation about the region and what you can do/eat there.
 
 So are you ready! 
 Let's go! Ikimashou! 

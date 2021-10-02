@@ -6,20 +6,6 @@ This application is an interactive travel guide that will allow users to be able
 * Quizzes - before the user gets to the given information they will activate a quiz time that involves questions that relate to either useful Japanese phrases or how to deal with certain situations when travelling. The quizzes will consist of either a multiple choice or true or false question. If the user gets the answer right, a congratulations message will be printed to the screen. If they get it wrong an explanation of the right answer will be printed. 
 * User details - Before they get started the user will be asked to input their name to provide a customized experience. The user’s name will then be saved to a variable which will be used as necessary in the application (personalised quizzes and situations in trap card stage). Error handling will be used to ensure that a user puts in a valid input. 
 
-### User interaction and experience 
-* At the beginning the user will be prompted to read through the manual. There will also be a short message printed to the screen explaining what the application is and what they can get out of it since this application is meant to be educational and fun
-* The application features are pretty self explanatory as the user will mostly be answering questions as part of the quiz and as part of the selection process to move onto the next stage. This is why the explanation will be just in the help document
-* As a part of error handling, help documentation will be provided to help the user understand how to use the application and get the most of it 
-Error messages will be customised and displayed to the user in an understandable way 
-* The majority of user interaction will be through the user selecting from a group of options. This is to reduce the amount of errors in the application as much as possible to provide a positive user experience.
-* Command line arguments will be available for the user to get more information about the app, including the gems used for the application, access to the help secions without running the app and the intended purpose/scope of the app. 
-
-
-### Project Management 
-Project management was done using trello. Each feature is represented by a card and the steps to make the feature functional added as a check list. Lables are used to indicate how much time a particular feature will take to complete. 
-[Trello Project Link](https://trello.com/b/mjQD8oj2/t1a3-cli-app) 
-
-
 ### Help documentation 
 #### Dependencies: 
 This app is dependent on the following gems:
@@ -43,8 +29,15 @@ There will also be sections where you will be asked to select an option.
 Use the arrow keys to navigate throught the options and press enter to confirm your selection. 
 
 The application also features quizzes which will test you on situations you may find yourself in as you travel.
-The quizzes also feature handy Japanese phrases to use on your travels. 
+The quizzes also feature handy Japanese phrases to use on your travels.
 
+#### Command Line Arguments:
+Command line arguments are a available for this application. 
+--a or --about : Prints information about the app, it's scope and purpose 
+--g or --gems : Prints the gems used in the application
+--h or --help : Prints help documentation 
+These can be used by running the app directly in the terminal (not the bash script):
+ruby app.rb [argument]
 
 ### References
 Edmondson, Olivia. J. H., and Andrew K. MacLeod. “Psychological Well-Being and Anticipated Positive Personal Events: Their Relationship to Depression.” Clinical Psychology & Psychotherapy, vol. 22, no. 5, 7 July 2013, pp. 418–425, 10.1002/cpp.1911. Accessed 9 Nov. 2018.
